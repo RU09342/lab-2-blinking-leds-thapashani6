@@ -13,7 +13,7 @@ The task was to blink an LED through a button press. The code is more complex si
 * Each board generally had a different pinout for thier buttons 
 * All the FR boards had to have `PM5CTL0 &= ~LOCKLPM5;` in the code
 
-####Example Code Differences for Button pinouts 
+#### Example Code Differences for Button pinouts 
 ##### Code for F5994
 ```
 P1REN |= BIT1;                          //enable resistor on P1.1, a switch
